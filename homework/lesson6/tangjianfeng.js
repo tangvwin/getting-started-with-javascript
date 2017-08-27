@@ -9,7 +9,7 @@ function callback(err, files) {
     if (err) {
          console.log('读取文件失败');
     }
-    else if (files.length >0) {
+    if (files.length >0) {
         console.log(files);
     } else {
         console.log('没有找到任何文件');
@@ -26,7 +26,6 @@ function callback(err, files) {
 
      
 
+console.log(files);
 
-
-fs.readdir(dirPathString, callback);
 fs.writeFileSync(outputPathString,files,callbackwrite() );
