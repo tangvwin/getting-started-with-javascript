@@ -9,8 +9,9 @@ function checkFlightSchedule() {
     from: 'beijing',
     to: 'hangzhou'
   };
+    return scheduleInfo.start;
 
-  return scheduleInfo.start;
+
 }
 
 //---------------------------------------
