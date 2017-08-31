@@ -10,8 +10,10 @@
 
 
 var name = 'xiaoming';
-var age = 18;
 var height = 170, weight = 130.1;
+var age = 18;
+var xinshengUserName = 'xiaoming';
+var wechat_user_name = 'xiaoming';
 var isMan = true;
 var student = false;
 var xinshengUserName = 'xiaoming';
